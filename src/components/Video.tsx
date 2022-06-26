@@ -44,10 +44,10 @@ export function Video(props: VideoProps) {
     }
   });
 
-  console.log(data);
   if (!data) {
     return (
       <div className="flex-1">
+        {/* TODO: CRIAR TELA DE LOADING */}
         <p>Carregando...</p>
       </div>
     )
